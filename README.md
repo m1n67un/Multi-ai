@@ -1,2 +1,2 @@
-# muti-ai
-muti-ai
+# multi-ai
+multi-ai
