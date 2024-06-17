@@ -1,0 +1,14 @@
+[package]
+name = "multiai"
+version = "0.1.0"
+edition = "2021"
+
+[lints.rust]
+unsafe_code = "forbid"
+# unused = { level = "allow", priority = -1 }
+
+[dependencies]
+# Async
+tokio = { version = "1", features = ["full"]}
+# AI
+genai = "=0.1.1"
